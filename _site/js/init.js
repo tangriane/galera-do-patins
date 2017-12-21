@@ -4,7 +4,7 @@
     $('.button-collapse').sideNav();
     $('.carousel.carousel-slider').carousel({fullWidth: true});
 
-    
+    $('.slider').slider();
       $('.parallax').parallax();
  
         
