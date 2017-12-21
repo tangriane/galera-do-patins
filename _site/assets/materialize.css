@@ -725,10 +725,16 @@
   color: #00e5ff !important; }
 
 .cyan.accent-4 {
-  background-color: #00b8d4 !important; }
+  background-color: #4c8981 !important; }
 
 .cyan-text.text-accent-4 {
-  color: #00b8d4 !important; }
+  color: #4c8981 !important; }
+
+.cyan.accent-5 {
+  background-color: #36605d !important; }
+
+.cyan-text.text-accent-5 {
+  color: #36605d !important; }
 
 .teal {
   background-color: #009688 !important; }
@@ -2100,7 +2106,7 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px; }
+  height: 300px; }
   .parallax-container .parallax {
     position: absolute;
     top: 0;
