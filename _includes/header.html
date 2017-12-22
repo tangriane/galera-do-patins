@@ -1,5 +1,12 @@
+<style>
+    .img-logo{
+    width: 69px;
+    position: absolute;
+    z-index: 10;
+}
+</style>
 <nav class="cyan accent-5 lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" class="brand-logo" href="{{ "/" | relative_url }}">Logo</a>
+    <div class="nav-wrapper container"><a id="logo-container" class="brand-logo" href="{{ "/" | relative_url }}"><img class="img-logo" src="/img/pp.png"></a>
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 

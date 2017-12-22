@@ -2140,6 +2140,9 @@ ul.staggered-list li {
   opacity: 0;
   transform-origin: 0 50%; }
 
+.title-perfect {
+  font-family: 'Pacifico', cursive; }
+
 /*********************
   Media Query Classes
 **********************/
